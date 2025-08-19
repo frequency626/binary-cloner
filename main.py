@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from cryptography.fernet import Fernet
 
 # === Load .env ===
-load_dotenv(dotenv_path='./config/token.env')
+load_dotenv(dotenv_path='./secure_config/token.env')
 
 # === Speech engine ===
 speech_mode = True
